@@ -1,0 +1,10 @@
+@startuml
+start
+:int i = 0, int sum = 0;
+while (i < 5) is (yes)
+  :get user input;
+  :sum += user input;
+  :i++;
+endwhile (no)
+:output sum;
+@enduml
